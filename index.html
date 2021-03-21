@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form Login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script language="javascript" src="kiemtra.js"></script>
+        
+        <form action="" method="POST" onsubmit="return validate()">
+        <div class="login">
+        <h1>Đăng nhập</h1>
+        <p>Vui lòng điền thông tin để đăng nhập</p>
+        <hr>
+        <label for="username">Tên đăng nhập</label>
+        <input type="text" placeholder="Tên đăng nhập" name="username" id="username">
+        <label for="password">Mật khẩu</label>
+        <input type="password" placeholder="******" name="password" id="password">
+        <hr>
+        <button type="submit" class="submit">Đăng nhập</button>
+        </div>
+        <div class="login register">
+        <p>Bạn chưa có tài khoản? <a href="#">Đăng ký</a>.</p>
+        </div>
+        </form>
+    </body>
+</html>
